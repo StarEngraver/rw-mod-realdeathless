@@ -2,7 +2,7 @@
 
 ## Repository Information
 
-This repository is a public repository for storing RimWorld mod: RealDeathless .
+This repository is a public repository for storing RimWorld mod: RealDeathless.
 
 ## Mod Introduction
 

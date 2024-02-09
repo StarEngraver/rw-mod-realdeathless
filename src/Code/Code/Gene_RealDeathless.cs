@@ -32,8 +32,6 @@ namespace RealDeathless
         {
           List<Hediff_MissingPart> missParts = pawn.health.hediffSet.GetMissingPartsCommonAncestors();
 
-          // List<Hediff_Injury> hasInjuries = pawn.health.hediffSet.GetInjuriesTendable();
-
           List<Hediff_Injury> hasInjuries = new List<Hediff_Injury>();
 
           for (int i = 0; i < pawn.health.hediffSet.hediffs.Count; i++)
