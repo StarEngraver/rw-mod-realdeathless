@@ -1,0 +1,24 @@
+{
+  "name": "Dev Container (RimWorld)",
+  "image": "mcr.microsoft.com/devcontainers/dotnet:1-7.0",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "redhat.vscode-xml",
+        "ms-dotnettools.csdevkit"
+      ],
+      "settings": {
+        "dotnetAcquisitionExtension.existingDotnetPath": [
+          {
+            "extensionId": "ms-dotnettools.csharp",
+            "path": "/usr/bin/dotnet/dotnet"
+          },
+          {
+            "extensionId": "ms-dotnettools.csdevkit",
+            "path": "/usr/bin/dotnet/dotnet"
+          }
+        ]
+      }
+    }
+  }
+}
