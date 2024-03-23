@@ -5,8 +5,8 @@
     <PlatformTarget>AnyCPU</PlatformTarget>
     <RootNamespace>RealDeathless</RootNamespace>
     <AssemblyName>librwmod-realdeathless</AssemblyName>
-    <OutputPath>../../../mod/Assemblies/</OutputPath>
-    <Version>0.0.0.3</Version>
+    <OutputPath>../../../mod/1.5/Assemblies/</OutputPath>
+    <Version>0.0.0.4</Version>
     <IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
     <DebugType>none</DebugType>
     <DebugSymbols>false</DebugSymbols>
@@ -17,12 +17,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Krafs.Rimworld.Ref" Version="1.4.3901" />
-    <PackageReference Include="Lib.Harmony" Version="2.2.2" />
+    <PackageReference Include="Krafs.Rimworld.Ref" Version="1.5.4042-beta" />
+    <PackageReference Include="Lib.Harmony" Version="2.3.1.1" />
   </ItemGroup>
 
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="rm ../../../mod/Assemblies/0Harmony.dll" />
+    <Exec Command="rm ../../../mod/1.5/Assemblies/0Harmony.dll" />
   </Target>
 
 </Project>

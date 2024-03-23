@@ -22,7 +22,7 @@ RealDeathless - Even the brain is destroyed
 
 ### Compatibility:
 
-- Game Version: 1.4.
+- Game Version: 1.4/1.5.
 - DLC Required: Biotech.
 
 ## Credits
